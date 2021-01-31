@@ -13,7 +13,6 @@ sys.path.append('stub')
 sys.path.append('lib/script.module.resolveurl/lib')
 
 from lib.scrapers import episodes
-from config import base_url
 
-list = episodes('http://www1.adrama.to/watch-online-the-exorcist-s-2nd-meter-episode-01-233105.html')
+list = episodes('http://www1.hkdrama.to/watch-online-armed-reaction-2021-episode-01-274007.html')
 print list

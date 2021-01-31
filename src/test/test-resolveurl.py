@@ -12,8 +12,7 @@ sys.path.append('../plugin.video.icdrama/lib')
 sys.path.append('stub')
 sys.path.append('lib/script.module.resolveurl/lib')
 
-from resolvers.icdrama import Icdrama
 from resolveurl import resolve
 
-url = resolve('http://www1.adrama.to/watch-online-the-exorcist-s-2nd-meter-episode-25-end-238373.html')
+url = resolve('http://www1.hkdrama.to/watch-online-armed-reaction-2021-episode-01-274007.html')
 print url

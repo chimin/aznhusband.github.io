@@ -13,7 +13,6 @@ sys.path.append('stub')
 sys.path.append('lib/script.module.resolveurl/lib')
 
 from lib.scrapers import mirrors
-from config import base_url
 
-list = mirrors('http://www1.adrama.to/watch-online-the-exorcist-s-2nd-meter-episode-25-end-238373.html')
+list = mirrors('http://www1.hkdrama.to/watch-online-armed-reaction-2021-episode-01-274007.html')
 print list
